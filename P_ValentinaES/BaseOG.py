@@ -112,12 +112,19 @@ while True:
 
             if buscador in alimentos_orga:
                 alimentos_orga.pop(posicion)
+                deta_alimentos_orga.pop(posicion)
+
             elif buscador in productos_hc:
                 productos_hc.pop(posicion)
+                deta_productos_hc.pop(posicion)
+                
             elif buscador in alterna_sos:
                 alterna_sos.pop(posicion)
+                deta_alterna_sos.pop(posicion)
+                
             elif buscador in productos_limE:
                 productos_limE.pop(posicion)
+                deta_productos_limE.pop(posicion)
 
         
             print('Producto Eliminado')
