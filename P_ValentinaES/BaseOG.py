@@ -1,7 +1,6 @@
 
 
-print('Bienvenido al Programa de Consultas sobre Productos Ecologicos'.center(70, '-'))
-
+print('Bienvenido al Programa de Consultas sobre Productos Ecologicos')
 #Creacion de las Listas Basicas
 productos = []
 categorias = []
@@ -33,7 +32,7 @@ while True:
 
     # Pedir Datos de las Listas
     if opcion == 1:
-        an_productos = input('Ingrese el Nombre del Producto: ').strip().lower()
+        an_productos = input('Ingrese el Nombre del Producto: ').lower()
         productos.append(an_productos)
 
         dt_productos = input('Ingrese detalles de su Producto: ')
@@ -95,17 +94,17 @@ while True:
  
     # Verificar Existencias
     elif opcion == 3:
-        buscador = input('Ingrese el Producto a Buscar: ').strip().lower()
+        buscador = input('Ingrese el Producto a Buscar: ').lower()
         if buscador in productos:
-            posicion = productos.index(buscador)
+
             print('El Producto si existe')
         else:
             print("Producto no encontrado")
 
     # Borrar Producto Especifico de la Base de datos
     elif opcion == 4:
-        buscador = input('Ingrese el Producto a Eliminar: ').strip().lower()
-        if buscador in productos or  alimentos_orga or productos_hc or alterna_sos or productos_limE:
+        buscador = input('Ingrese el Producto a Eliminar: ').lower()
+        if buscador in productos:
             posicion = productos.index(buscador)
             productos.pop(posicion)
             categorias.pop(posicion)
