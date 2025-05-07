@@ -1,0 +1,63 @@
+"""
+MEJORAS PROPUESTAS POR MI PERSONA
+
+1- Base de Datos Importadas
+2- Funciones Importadas
+
+MEJORAS PROPUESTAS POR EL PROFESOR/DOCUMENTO
+
+1- Modificar Datos en Tipo Lista ✅
+2- Definicion de Funciones ✅ 
+3- Agregar funciones Pendientes ✅
+        
+    Actualizar información de un producto → Permite modificar los detalles de un
+    producto existente.
+
+4- Print Resultados Tipo Cuadricula (pip install tabulate) ✅
+5- Topes Min y Max ; Datos Negativos (Repeticion Datos) ✅
+6- Duplicar Valores de la Categoria? ❌
+7- Modificar Datos desde .txt ✅  
+8- Grafica /Matlotlib ✅
+
+9- Al ingresar Clasificarlo en alto, medio, bajo o no se
+
+----------------EXPLICACION----------------
+1- Se modificaron las listas originales, y con ellas se hizo un SOLO Diccionario que contiene
+los datos de cada Producto (Nombre, Descripcion e Impacto Ambiental)
+
+2- El Programa se hizo de forma modular, donde cada archivo con la base "Funcion_#.py"
+contiene cada una de las funciones que se pedian (funciones = opciones Menu)
+
+3- Se Modificaron todas las Funciones Originales para poderlas adaptar a las nuevas Funciones Propuestas,
+con la cual se le permite al usuario tener una experencia más amena, ya que en cada momento el usuario 
+sabra que esta haciendo o podra hacer; donde por ejemeplo al realizar cualquier "accion" se le re-afirmara
+lo que sucedio 
+
+--> Añadir Zapato ... El Zapato ha sido Agregado a la Categoria...
+
+MEJORAS:
+Funcion_1 - Añadir Producto
+    - En caso que el usuario desee agregar un producto ya existente, el sisitema no lo permite
+    - Cracion de 2 Sub-menus para Categoria e Impacto Ambiental
+
+Funcion_2 - Buscar Productos por Categorias
+    - Los Productos se Visualizan mediante una Tabla, usando tabulate (libreria)
+
+Funcion_3 - Verificar experencia
+    - Nada
+
+Funcion_4 - Eliminar Producto 
+    - Nada
+
+Funcion_5 - Actualizar información de un Producto (NUEVO)
+    
+Funcion_6 - Ver Todos los Productos Ecologicos
+    - Los Productos se Visualizan mediante una Tabla, usando tabulate (libreria)
+
+Funcion_7 - Buscar Producto y Saber su Impacto Ambiental
+    - NADA
+
+Funcion_8 - Grafica (NUEVO)
+
+Funcion_9 - Archivo .txt (NUEVO)
+    
