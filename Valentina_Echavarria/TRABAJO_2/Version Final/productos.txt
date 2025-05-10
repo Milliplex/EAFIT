@@ -1,0 +1,16 @@
+
+    //Estructura
+// 1. Nombre del Productos
+// 2. Informacion del Productos
+// 3. Impacto (alto-medio-bajo-no especificado)
+// 4. Categoria a la que Pertenece el Producto (alimentos organicos-higiene cosmetica-alternativas sostenibles-limpieza ecologica-no especificada)
+
+// Recuerda que los Nombres de las Categorias e Impactos deben ser exactos para que el programa pueda funcionar correctamente ()
+
+jabón artesanal, Hecho a mano con ingredientes naturales, bajo, higiene cosmetica
+bolsas reutilizables, Sustituyen bolsas plásticas, bajo, alternativas sostenibles
+vinagre blanco, Limpieza natural, medio, limpieza ecologica
+manzana orgánica, Fruta sin pesticidas, bajo, alimentos organicos
+zapato, rojo, bajo, no especificada
+
+
